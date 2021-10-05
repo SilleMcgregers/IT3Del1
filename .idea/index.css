@@ -1,3 +1,11 @@
+/* Style header */
+.header {
+    padding: 10px 16px;
+    background: skyblue;
+    color: royalblue;
+
+}
+
 body{
     background-color:white;
 }
