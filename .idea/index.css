@@ -2,13 +2,37 @@
 .header {
     background: lightblue;
     color: royalblue;
+    position: relative;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 1px;
 
+}
+.header1{
+    color: dodgerblue;
+    font-size: 18px;
+
+}
+.header2{
+    color:deepskyblue;
+    font-size: 15px;
+}
+.header3{
+    color:lightslategrey;
+    font-size: 12px;
 }
 .button1{
     border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
     padding: 10px;
     background-color: lightskyblue;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    /*https://stackoverflow.com/questions/16832334/stick-button-to-right-side-of-div/16832402 */
 }
+
 body{
     background-color:white;
 }
