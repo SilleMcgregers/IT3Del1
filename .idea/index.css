@@ -1,11 +1,14 @@
 /* Style header */
 .header {
-    padding: 10px 16px;
-    background: skyblue;
+    background: lightblue;
     color: royalblue;
 
 }
-
+.button1{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: lightskyblue;
+}
 body{
     background-color:white;
 }
