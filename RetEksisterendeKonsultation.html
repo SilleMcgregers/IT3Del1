@@ -6,13 +6,128 @@
     <link rel="stylesheet" type="text/css" href=".idea/index.css">
 </head>
 <body>
+<!--
+HER LIGGER HEADER-KODEN :)
+div class="header" id="myHeader">
+    <u class="underlineHeader" color="dodgerblue"><text class="header1">Sundhedsplatformen 2.0</text></u><br>
+    <text class="header2">Elektronisk patient journal</text><br>
+    <text class="header3">Anno 2021</text><br>
+    <p><button id="idButton" class="button1" >Logud</button></p>
+</div>
+-->
 <div class="header" id="myHeader">
     <u class="underlineHeader" color="dodgerblue"><text class="header1">Sundhedsplatformen 2.0</text></u><br>
     <text class="header2">Elektronisk patient journal</text><br>
-    <text class="header3">Anno 2021</text> <br>
-    <p><button id="idButton" class="button1" >Logud</button></p>
+    <text class="header3">Anno 2021</text><br>
+    <p><button id="idButton" class="button1">Annuller</button></p>
+    <p><button id="idButton2" class="button1">Gem</button></p>
+</div>
+<div>
+    <p id="overskriftEK"> Opret ny konsultation</p>
+</div>
+
+<div class="tekstoverskrift">
+    <text id="piOverskrift">Patient info</text>
+    <text id="vdOverskrift">Vælg dato</text>
+    <text id="vtOverskrift">Vælg tid </text>
+    <text id="vvOverskrift">Vælg varighed</text>
+    <text id="tnOverskrift">Tilføj notat</text>
+</div>
+
+
+
+<div id="wrap"> <!--http://jsfiddle.net/itz2k13/KAwEz/-->
+    <div id="patientinfo">Efternavn, Fornavn <br> <br> CPR-nummer:
+    0123456-7890 <br> <p>Valgte tid: <br> 5/10, 12:30</p></div><!-- indsæt et eller andet felt der kan vise hentet tekst fra andet vindue-->
+    <div id="vælgdato">
+        <ul class="listewrap">
+            <li class="liste1">
+            5/10
+            </li>
+            <li clasS="liste1">
+                6/10
+            </li>
+            <li clasS="liste1">
+                7/10
+            </li>
+            <li clasS="liste1">
+                8/10
+            </li>
+            <li clasS="liste1">
+                9/10
+            </li>
+            <li clasS="liste1">
+                10/10
+            </li>
+            <li clasS="liste1">
+                11/10
+            </li>
+            <li clasS="liste1">
+                12/10
+            </li>
+            <li clasS="liste1">
+                13/10
+            </li>
+            <li clasS="liste1">
+                14/10
+            </li>
+            <li clasS="liste1">
+                15/10
+            </li>
+        </ul>
+    </div>
+    <div id="vælgtid">
+        <ul class="listewrap">
+            <li class="liste1">
+                10:00
+            </li>
+            <li clasS="liste1">
+                10:15
+            </li>
+            <li clasS="liste1">
+                10:30
+            </li>
+            <li clasS="liste1">
+                10:45
+            </li>
+            <li clasS="liste1">
+                11:00
+            </li>
+            <li clasS="liste1">
+                11:15
+            </li>
+            <li clasS="liste1">
+                11:30
+            </li>
+            <li clasS="liste1">
+                11:45
+            </li>
+            <li clasS="liste1">
+                12:00
+            </li>
+            <li clasS="liste1">
+                12:15
+            </li>
+            <li clasS="liste1">
+                12:30
+            </li>
+        </ul>
+    </div>
+
+    <div id="vælgvarighed">
+        <ul class="listewrap">
+            <li class="liste1">
+                15 min.
+            </li>
+            <li clasS="liste1">
+                30 min.
+            </li>
+
+        </ul>
+    </div>
+    <label for="tilføjnotat"></label><textarea id="tilføjnotat">Tilføj notat her</textarea>
 </div>
 </body>
 </html>
 
-<!--xmlns:color="http://www.w3.org/1999/xhtml"-->
+<!--xmlns:color="http://www.w3.org/1999/xhtml"  <input type="textfield" id="notatfelt">-->
