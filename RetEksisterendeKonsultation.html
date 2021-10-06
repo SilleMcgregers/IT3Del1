@@ -24,7 +24,7 @@ div class="header" id="myHeader">
     <p><button id="idButton2" class="button1">Gem</button></p>
 </div>
 <div>
-    <p id="overskriftEK"> Opret ny konsultation</p>
+    <p class="overskriftside"> Opret ny konsultation</p>
 </div>
 
 <div class="tekstoverskrift">
@@ -38,95 +38,57 @@ div class="header" id="myHeader">
 
 
 <div id="wrap"> <!--http://jsfiddle.net/itz2k13/KAwEz/-->
-    <div id="patientinfo">Efternavn, Fornavn <br> <br> CPR-nummer:
+      <div id="patientinfo">Efternavn, Fornavn <br> <br> CPR-nummer:
     0123456-7890 <br> <p>Valgte tid: <br> 5/10, 12:30</p></div><!-- indsæt et eller andet felt der kan vise hentet tekst fra andet vindue-->
     <div id="vælgdato">
-        <ul class="listewrap">
-            <li class="liste1">
-            5/10
-            </li>
-            <li class="liste1">
-                6/10
-            </li>
-            <li class="liste1">
-                7/10
-            </li>
-            <li class="liste1">
-                8/10
-            </li>
-            <li clasS="liste1">
-                9/10
-            </li>
-            <li class="liste1">
-                10/10
-            </li>
-            <li class="liste1">
-                11/10
-            </li>
-            <li class="liste1">
-                12/10
-            </li>
-            <li class="liste1">
-                13/10
-            </li>
-            <li class="liste1">
-                14/10
-            </li>
-            <li class="liste1">
-                15/10
-            </li>
-        </ul>
+        <select size="20"class="options">
+            <option value="5/10">5/10</option>
+            <option value="6/10">6/10</option>
+            <option value="7/10">7/10</option>
+            <option value="8/10">8/10</option>
+            <option value="9/10">9/10</option>
+            <option value="10/10">10/10</option>
+            <option value="11/10">11/10</option>
+            <option value="12/10">12/10</option>
+            <option value="13/10">13/10</option>
+            <option value="14/10">14/10</option>
+            <option value="15/10">15/10</option>
+            <option value="16/10">16/10</option>
+            <option value="17/10">17/10</option>
+            <option value="18/10">18/10</option>
+            <option value="19/10">19/10</option>
+            <option value="20/10">20/10</option>
+            <option value="21/10">21/10</option>
+        </select>
     </div>
     <div id="vælgtid">
-        <ul class="listewrap">
-            <li class="liste1">
-                10:00
-            </li>
-            <li class="liste1">
-                10:15
-            </li>
-            <li class="liste1">
-                10:30
-            </li>
-            <li class="liste1">
-                10:45
-            </li>
-            <li class="liste1">
-                11:00
-            </li>
-            <li class="liste1">
-                11:15
-            </li>
-            <li clasS="liste1">
-                11:30
-            </li>
-            <li clasS="liste1">
-                11:45
-            </li>
-            <li clasS="liste1">
-                12:00
-            </li>
-            <li class="liste1">
-                12:15
-            </li>
-            <li class="liste1">
-                12:30
-            </li>
-        </ul>
+        <select size="20"class="options">
+            <option value="9:15">9:15</option>
+            <option value="9:30">9:30</option>
+            <option value="9:45">9:45</option>
+            <option value="10:00">10:00</option>
+            <option value="10:15">10:15</option>
+            <option value="10:30">10:30</option>
+            <option value="10:45">10:45</option>
+            <option value="11:00">11:00</option>
+            <option value="11:15">11:15</option>
+            <option value="11:30">11:30</option>
+            <option value="11:45">11:45</option>
+            <option value="12:00">12:00</option>
+            <option value="12:15">12:15</option>
+            <option value="12:30">12:30</option>
+            <option value="12:45">12:45</option>
+            <option value="13:00">13:00</option>
+            <option value="13:15">13:15</option>
+        </select>
     </div>
-
     <div id="vælgvarighed">
-        <ul class="listewrap">
-            <li class="liste1">
-                15 min.
-            </li>
-            <li class="liste1">
-                30 min.
-            </li>
-
-        </ul>
+        <select size="20"class="options">
+            <option value="15">15 min</option>
+            <option value="30">30 min</option>
+        </select>
     </div>
-    <label for="tilføjnotat"></label><textarea id="tilføjnotat">Tilføj notat her</textarea>
+    <label for="tilføjnotat" class="tekstoverskrift"></label><textarea id="tilføjnotat">Tilføj notat her</textarea>
 </div>
 </body>
 </html>

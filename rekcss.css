@@ -7,13 +7,7 @@
     right: 110px;
     top: 15px;
 }
-#overskriftEK{
-    color:deepskyblue;
-    text-align: center; /* https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/ */
-    font-size: x-large;
-    font-weight: bold;
 
-}
 
 /*
 STARTER HER
@@ -92,11 +86,13 @@ http://jsfiddle.net/itz2k13/KAwEz/
     margin-inside: 0px;
     list-style-type: none;
 }
-
+/*
 .listewrap{
     list-style-type: none;
     padding-left: 0px;
-}
+
+ */
+
 
 .tekstoverskrift{
     font-weight: bold;
@@ -122,6 +118,15 @@ http://jsfiddle.net/itz2k13/KAwEz/
     text-align: center;
     padding-left: 20px;
 }
+
+.options{
+    text-align: center;
+    border: none;
+    background-color: #d8f5fd;
+    width: 100%;
+    height: 100%;
+}
+
 /*
 SLUT HER
  */
