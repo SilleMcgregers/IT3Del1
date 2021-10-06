@@ -1,0 +1,127 @@
+
+#idButton2{
+    position: absolute;
+    border-radius: 60%;
+    padding-left: 25px;
+    padding-right: 25px;
+    right: 110px;
+    top: 15px;
+}
+#overskriftEK{
+    color:deepskyblue;
+    text-align: center; /* https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/ */
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+/*
+STARTER HER
+http://jsfiddle.net/itz2k13/KAwEz/
+ */
+#wrap{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border: 1px solid white;
+
+}
+#patientinfo{
+    width: 18%;
+    height: 99%;
+    background-color: rgba(182, 238, 255, 0.52);
+    float: left;
+    position: relative;
+    border:1px solid black;
+    margin-right: 1.3%;
+    margin-left: 1.3%;
+    padding-left: 3px;
+    padding-top: 3px;
+    color: #136d8e;
+
+
+}
+
+#vælgdato{
+    width: 18%;
+    height: 100%;
+    float: left;
+    background-color: rgba(182, 238, 255, 0.52);
+    border:1px solid black;
+    margin-right: 1.3%;
+    position: relative;
+
+
+}
+#vælgtid{
+    width: 18%;
+    height: 100%;
+    float: left;
+    background-color: rgba(182, 238, 255, 0.52);
+    border:1px solid black;
+    margin-right: 1.3%;
+}
+#vælgvarighed{
+    width: 18%;
+    height: 100%;
+    background-color: rgba(182, 238, 255, 0.52);
+    float: left;
+    border:1px solid black;
+    margin-right: 1.3%;
+}
+#tilføjnotat{
+    width: 17%;
+    height:99%;
+    background-color: rgba(182, 238, 255, 0.52);
+    float: left;
+    border:1px solid black;
+    margin-right: 1.3%;
+}
+
+#notatfelt{
+    position:absolute;
+    width: 94%;
+    height: 98%;
+    background-color: #b6eeff;
+
+}
+
+.liste1{
+    border: 1px solid black;
+    text-align: center;
+    margin-inside: 0px;
+    list-style-type: none;
+}
+
+.listewrap{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.tekstoverskrift{
+    font-weight: bold;
+    color: #00befd;
+
+}
+#piOverskrift{
+    padding: 10px;
+}
+#vdOverskrift{
+    text-align: center;
+    padding-left: 25px;
+}
+#vtOverskrift{
+    text-align: center;
+    padding: 19px;
+}
+#vvOverskrift{
+    text-align: center;
+    padding-left: 36px;
+}
+#tnOverskrift{
+    text-align: center;
+    padding-left: 20px;
+}
+/*
+SLUT HER
+ */
