@@ -61,3 +61,25 @@ h1{
     color:cornflowerblue;
 }
 
+p{
+    color:deepskyblue;
+    text-align: center;
+}
+h7{
+    color:deepskyblue;
+}
+
+h8{
+    color:deepskyblue;
+
+}
+.button2{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    background-color: lightskyblue;
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
