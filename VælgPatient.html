@@ -1,28 +1,34 @@
-
-
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <title>Vælg patient</title>
-    <link rel="stylesheet" type="text/css" href=".idea/index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="rekcss.css">
 </head>
 <body>
-<h1>
-    <p> <small> <small> Vælg patient </small></small></p>
 
-</h1>
-<div>
+<div class="header" id="myHeader">
+    <u class="underlineHeader" color="dodgerblue"><text class="header1">Sundhedsplatformen 2.0</text></u><br>
+    <text class="header2">Elektronisk patient journal</text><br>
+    <text class="header3">Anno 2021</text><br>
+    <p><button id="idButton" class="button1">Logud</button></p>
+</div>
+
+    <p class="overskriftside"> Vælg patient</p>
+<div id="cprnummer" >
     <div style="position: center;margin-left:100px; margin-bottom: 10px">
-        <label for="indtast patients CPR-nummer" style="width:10px"> indtast patients CPR-nummer:</label><br>
+        <label for="Indtast patients CPR" style="width:10px"> indtast patients CPR:</label><br>
     </div>
 
     <div style="position:center;margin-left:100px">
-        <input type="text" id="indtast patients CPR-nummer" name=indtast patients CPR-nummer" required ><br>
+        <input type="text" id="Indtast patients CPR" name="Indtast patients " required ><br>
     </div>
 </div>
 <br>
-<a href="VælgPatient.html"><input type="button" value="OK" style="position:center;margin-left:150px">
+<a href="VælgPatient.html"><input type="button" class="button4" value="OK" style="position:center;margin-left:300px">
 </a>
 </body>
+</html>
+
 
