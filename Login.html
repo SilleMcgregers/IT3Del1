@@ -3,50 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href=".idea/index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="rekcss.css">
 </head>
 <body>
-<h1>Sundhedsplatformen 2.0
-    <div>
-        <small> Elektronisk patient journal </small>
-    </div>
+<div class="header" id="myHeader">
+    <u class="underlineHeader" color="dodgerblue"><text class="header1">Sundhedsplatformen 2.0</text></u><br>
+    <text class="header2">Elektronisk patient journal</text><br>
+    <text class="header3">Anno 2021</text> <br>
+    <p><button id="idButton" class="button1" >Annuller</button></p>
+    <p><button id="iddButton" class="button2" >Gem</button></p>
+</div>
 
-    <div>
-        <small> <small> <small>Anno 2021</small></small></small>
-    </div>
-</h1>
-<hr>
 
-<h1>
-    <p> <small> <small> Velkommen til sundhedsplatformen 2.0</small></small></p>
+<p class="overskriftside"> Velkommen til sundhedsplatformen 2.0</p>
+<!--style="position:absolute;width:100px; margin-bottom: 50px" -->
 
-</h1>
-
-<div>
-    <div style="margin-bottom:50px">
-        <div style="position: absolute;width:100px; margin-bottom: 50px">
+<div id="loginkasse">
+    <div id="loginkasse2">
+        <div id="brugernavn1">
             <label for="Brugernavn" style="width:250px"> Brugernavn:</label><br>
         </div>
 
         <div style="position:absolute; margin-left: 100px">
             <input type="text" id="brugernavn" name=brugernavn" required ><br>
         </div>
-    </div>
-    <br>
-    <br>
-</div>
-<div>
+        <br><br>
+        <div style="width:1px; background-color:whitesmoke; position:absolute">
+            <label for="Kodeord">Kodeord:</label><br>
+        </div>
 
-    <div style="width:1px; background-color:whitesmoke; position:absolute">
-        <label for="Kodeord">Kodeord:</label><br>
-    </div>
-    <div style="position:absolute;margin-left: 100px"><input type="kodeord" id="Kodeord" name="Kodeord" required><br><br>
+        <div style="position:absolute;margin-left: 100px"><input type="kodeord" id="Kodeord" name="Kodeord" required><br><br>
+        </div><br>
+        <div id="loginknap"> <a href="opretkonsultation.html"><input type="button" value="login"></a></div>
 
     </div>
 </div>
-
 <br><br>
 
-<a href="duerloggetind.html"><input type="button" value="login"></a>
+
 
 </body>
